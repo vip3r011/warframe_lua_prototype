@@ -1,0 +1,17 @@
+{
+    "path": "_",
+    "name": "SwordOfDoom.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 13],
+            "value": -10
+        },
+        {
+            "type": "number",
+            "path": [0, 9],
+            "value": 1000000
+        }
+    ]
+}

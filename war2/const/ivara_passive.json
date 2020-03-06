@@ -1,0 +1,12 @@
+{
+    "path": "_",
+    "name": "RangerPassive.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [2],
+            "value": 15000
+        }
+    ]
+}

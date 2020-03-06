@@ -1,0 +1,33 @@
+{
+    "path": "_",
+    "name": "RangerSteal.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 9],
+            "value": 0.2
+        },
+
+        {
+            "type": "number",
+            "path": [8],
+            "value": -10
+        },
+        {
+            "type": "number",
+            "path": [9],
+            "value": -10
+        },
+        {
+            "type": "number",
+            "path": [6],
+            "value": -10
+        },
+        {
+            "type": "number",
+            "path": [9, 9],
+            "value": -10
+        }
+    ]
+}

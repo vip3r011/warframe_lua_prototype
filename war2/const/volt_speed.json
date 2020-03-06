@@ -1,0 +1,97 @@
+{
+    "path": "_",
+    "name": "Speed.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 2],
+            "value": 60100
+        },
+        {
+            "type": "number",
+            "path": [0, 3],
+            "value": 602
+        },
+        {
+            "type": "number",
+            "path": [0, 4],
+            "value": 603
+        },
+        {
+            "type": "number",
+            "path": [0, 5],
+            "value": 604
+        },
+        {
+            "type": "number",
+            "path": [0, 7],
+            "value": 605
+        },
+        {
+            "type": "number",
+            "path": [0, 8],
+            "value": 606
+        },
+        {
+            "type": "number",
+            "path": [0, 9],
+            "value": 607
+        },
+        {
+            "type": "number",
+            "path": [0, 10],
+            "value": 608
+        },
+        {
+            "type": "number",
+            "path": [0, 12],
+            "value": 609
+        },
+        {
+            "type": "number",
+            "path": [0, 13],
+            "value": 610
+        },
+        {
+            "type": "number",
+            "path": [0, 14],
+            "value": 611
+        },
+        {
+            "type": "number",
+            "path": [0, 15],
+            "value": 612
+        },
+        {
+            "type": "number",
+            "path": [0, 16],
+            "value": 613
+        },
+        {
+            "type": "number",
+            "path": [0, 17],
+            "value": 614
+        },
+        {
+            "type": "number",
+            "path": [0, 18],
+            "value": 6150
+        },
+        {
+            "type": "number",
+            "path": [0, 19],
+            "value": 616
+        },
+        {
+            "type": "number",
+            "path": [0, 20],
+            "value": 617
+        },
+        {
+            "type": "number",
+            "path": [0, 21],
+            "value": 618
+        }
+    ]
+}

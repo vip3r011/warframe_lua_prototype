@@ -1,0 +1,17 @@
+{
+    "path": "_",
+    "name": "RangerQuiver.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 8],
+            "value": 600
+        },
+        {
+            "type": "number",
+            "path": [0, 4],
+            "value": 100
+        }
+    ]
+}

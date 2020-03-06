@@ -1,0 +1,16 @@
+{
+  "autoexec": "C:\\war2\\autorun.lua",
+  "autoexec_bin": "C:\\war2\\bin\\autorun.luac",
+  "compiler": "C:\\war2\\bin\\lua51.exe",
+
+  "run_path": "C:\\war2\\run",
+
+  "dump": false,
+  "decompile": true,
+  "decompiler": "C:\\war2\\bin\\luadec51.exe",
+  "dump_path": "C:\\war2\\raw",
+  "decompile_path": "C:\\war2\\rev",
+
+  "const_path": "C:\\war2\\const",
+  "const_config": "C:\\war2\\const_config.json"
+}

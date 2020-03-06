@@ -1,0 +1,12 @@
+{
+    "path": "_",
+    "name": "RangerBow.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 9],
+            "value": 1000000
+        }
+    ]
+}

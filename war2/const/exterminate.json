@@ -1,0 +1,32 @@
+{
+    "path": "_",
+    "name": "DarkSectors.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [44],
+            "value": 10
+        },
+        {
+            "type": "number",
+            "path": [45],
+            "value": 30000
+        },
+        {
+            "type": "number",
+            "path": [104],
+            "value": 0
+        },
+        {
+            "type": "number",
+            "path": [43],
+            "value": 30
+        },
+        {
+            "type": "number",
+            "path": [19, 12],
+            "value": 150
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "path": "_",
+    "name": "MissileVolley.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [12],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [7, 23],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [7, 24],
+            "value": 60005
+        },
+        {
+            "type": "number",
+            "path": [6, 2],
+            "value": 60005
+        },
+        {
+            "type": "number",
+            "path": [0, 1],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [0, 4],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [0, 5],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [0, 6],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [0, 2],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [0, 5],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [0, 8],
+            "value": 60000
+        },
+        {
+            "type": "number",
+            "path": [0, 10],
+            "value": 60000
+        }
+    ]
+}

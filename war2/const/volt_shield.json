@@ -1,0 +1,22 @@
+{
+    "path": "_",
+    "name": "Shield.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 7],
+            "value": 150
+        },
+        {
+            "type": "number",
+            "path": [4],
+            "value": 20000
+        },
+        {
+            "type": "number",
+            "path": [2],
+            "value": 0.00001
+        }
+    ]
+}

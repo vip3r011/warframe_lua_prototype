@@ -1,0 +1,25 @@
+{
+    "path": "_",
+    "name": "NezhaSash.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 7],
+            "value": 15000000,
+            "name": "invincible time"
+        },
+        {
+            "type": "number",
+            "path": [0, 8],
+            "value": 15,
+            "name": "damage radius"
+        },
+        {
+            "type": "number",
+            "path": [0, 16],
+            "value": 1000000,
+            "name": "damage"
+        }
+    ]
+}

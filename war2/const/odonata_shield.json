@@ -1,0 +1,27 @@
+{
+    "path": "_",
+    "name": "FireShield.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 1],
+            "value": 600
+        },
+        {
+            "type": "number",
+            "path": [0, 3],
+            "value": 600
+        },
+        {
+            "type": "number",
+            "path": [0, 5],
+            "value": 600
+        },
+        {
+            "type": "number",
+            "path": [0, 6],
+            "value": 600
+        }
+    ]
+}

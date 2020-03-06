@@ -1,0 +1,17 @@
+{
+    "path": "_",
+    "name": "VoltPassive.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 0],
+            "value": 66688800
+        },
+        {
+            "type": "number",
+            "path": [0, 1],
+            "value": 1666888
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "path": "_",
+    "name": "NezhaTrail.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [0, 16],
+            "value": 151,
+            "name": "speed"
+        },
+        {
+            "type": "number",
+            "path": [0, 23],
+            "value": 150,
+            "name": "time"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "path": "_",
+    "name": "Survival.lua",
+
+    "consts": [
+        {
+            "type": "number",
+            "path": [7],
+            "value": 0.1,
+            "name": "time"
+        },
+        {
+            "type": "number",
+            "path": [1],
+            "value": 0,
+            "name": "drop all"
+        }
+    ]
+}
