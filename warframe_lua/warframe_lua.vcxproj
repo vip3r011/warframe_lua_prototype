@@ -137,6 +137,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aes.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="console.cpp" />
+    <ClCompile Include="proto.cpp" />
     <ClCompile Include="dump.cpp" />
     <ClCompile Include="lua\lapi.c" />
     <ClCompile Include="lua\lauxlib.c" />
@@ -172,7 +176,11 @@
     <ClCompile Include="lua\lvm.c" />
     <ClCompile Include="lua\lzio.c" />
     <ClCompile Include="lua\print.c" />
+    <ClCompile Include="lua_funcs.cpp" />
+    <ClCompile Include="lua_load.cpp" />
+    <ClCompile Include="lua_utils.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="lua_imp.asm">
@@ -180,7 +188,13 @@
     </MASM>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="aes.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="proto.h" />
     <ClInclude Include="dump.h" />
+    <ClInclude Include="externs.h" />
+    <ClInclude Include="json.hpp" />
     <ClInclude Include="lua\lapi.h" />
     <ClInclude Include="lua\lauxlib.h" />
     <ClInclude Include="lua\lcode.h" />
@@ -204,6 +218,13 @@
     <ClInclude Include="lua\lundump.h" />
     <ClInclude Include="lua\lvm.h" />
     <ClInclude Include="lua\lzio.h" />
+    <ClInclude Include="lua_funcs.h" />
+    <ClInclude Include="lua_load.h" />
+    <ClInclude Include="lua_utils.h" />
+    <ClInclude Include="sha.h" />
+    <ClInclude Include="some_old.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lua\Makefile" />

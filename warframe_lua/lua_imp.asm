@@ -28,26 +28,6 @@ _TEXT SEGMENT
 		jmp		rax
 	imp_load_bytecode ENDP
 
-	PUBLIC imp_lua_time_error
-	imp_lua_time_error PROC
-		mov     rax, rsp
-		mov     [rax+18h], r8
-		mov     [rax+10h], dl
-		push    rbp
-		push    rbx
-		push    rsi
-		push    rdi
-		push    r12
-		push    r13
-		push    r14
-		push    r15
-		lea     rbp, [rax-78h]
-
-		mov		rax, qword ptr lua_time_error
-		add		rax, 16h
-		jmp		rax
-	imp_lua_time_error ENDP
-
 	PUBLIC imp_lua_bytecode_load
 	imp_lua_bytecode_load PROC
 		mov     [rsp-8+20h], rbx

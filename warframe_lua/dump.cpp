@@ -1,6 +1,8 @@
 #include <Windows.h>
 #include <string>
 
+bool dump = false;
+bool decompile = false;
 
 BOOL DirectoryExists(LPCTSTR szPath)
 {
@@ -56,10 +58,14 @@ void fix_splash(char *str)
 	}
 }
 
-std::string dump_path = "C:\\wlua_dump";
+/*std::string dump_path = "C:\\wlua_dump";
 std::string lua_bin = "C:\\wlua_dump\\bin\\";
 std::string lua_path = "C:\\wlua_dump\\lua\\dump";
-std::string chunk_bin = "C:\\wlua_dump\\bin\\chunk.lua";
+std::string chunk_bin = "C:\\wlua_dump\\bin\\chunk.lua";*/
+
+std::string dump_path;
+std::string decompile_path;
+std::string decompiler_path;
 
 char temp_rev[255];
 char temp_path[255];
@@ -81,6 +87,10 @@ void set_dump_path(char *path, char *name)
 
 void dump_bin(char *buff, size_t size)
 {
+	if (!dump) {
+		return;
+	}
+
 	char path[255];
 
 	char *path_t;
@@ -98,7 +108,7 @@ void dump_bin(char *buff, size_t size)
 		path_t++;
 	}
 
-	sprintf(path, "C:\\wlua_dump\\path\\%s", path_t);
+	sprintf(path, "%s\\%s", dump_path.c_str(), path_t);
 
 	if (DirectoryExists(path) == FALSE)
 		createDirectoryRecursively(path);
@@ -106,25 +116,28 @@ void dump_bin(char *buff, size_t size)
 	if (DirectoryExists(path) == FALSE) {
 		printf("can't save: %s%s\n", path, temp_name);
 	}
-	else {
+	else 
+	{
 		char full_path[255];
 		sprintf(full_path, "%s\\%s", path, temp_name);
 		FILE *f = fopen(full_path, "wb");
 		fwrite(buff, size, 1, f);
 		fclose(f);
 
-		sprintf(path, "C:\\wlua_dump\\rev\\%s", path_t);
+		sprintf(path, "%s\\%s", decompile_path.c_str(), path_t);
 	
 		if (DirectoryExists(path) == FALSE)
 			createDirectoryRecursively(path);
 
-		sprintf(temp_rev, "C:\\wlua_dump\\rev\\%s\\%s", path_t, temp_name);
+		sprintf(temp_rev, "%s\\%s\\%s", decompile_path.c_str(), path_t, temp_name);
 
 		//std::string command = lua_bin + "lua5.1.exe " + chunk_bin + " " + full_path + " > " + temp_rev;
 		//system(command.c_str());
 
-		std::string command = lua_bin + "luadec51.exe -dis " + full_path + " > " + temp_rev;
-		system( command.c_str() );
+		if (decompile) {
+			std::string command = decompiler_path + " -dis " + full_path + " > " + temp_rev;
+			system( command.c_str() ); 
+		}
 	}
 
 
